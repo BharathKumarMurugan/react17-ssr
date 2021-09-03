@@ -1,0 +1,21 @@
+:root{
+  --item-bg: blueviolet;
+  --font-color: white;
+  --item-hover-bg: #4e0c8b;
+  --counter-bg: darkgreen;
+}
+.button{
+  border: none;
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: var(--item-bg);
+  color: var(--font-color);
+}
+.button:hover{
+  background-color: var(--item-hover-bg);
+  transition: 0.4ms;
+  font-weight: 600;
+}
+.counterbtn{
+background-color: var(--counter-bg) !important;
+}
