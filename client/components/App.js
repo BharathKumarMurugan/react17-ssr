@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import loadable from "@loadable/component";
-const DynamicComponent = loadable(() => import("./DynamicComponent"), {
+const DynamicComponent = loadable(() => import("./DynamicContent"), {
   ssr: false,
 });
 import "./app.css";

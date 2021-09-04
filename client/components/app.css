@@ -15,6 +15,7 @@
   background-color: var(--item-hover-bg);
   transition: 0.4ms;
   font-weight: 600;
+  cursor: pointer;
 }
 .counterbtn{
 background-color: var(--counter-bg) !important;
